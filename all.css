@@ -1,0 +1,80 @@
+
+
+.about-pic{
+    width: 100%;
+    text-align: center;
+}
+
+.pic{
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+
+.a-link{
+position: absolute;
+width: 100%;
+height: 70%;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+
+}
+
+.skill-content{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.work-img{
+    border: solid 1px #cccccc;
+    border-radius: 8px;
+    padding: 0px 10px;
+}
+
+.footer-contnet{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.contact-link{
+    text-align: center;
+    padding: 0px;
+}
+
+.footer-list{
+    display: inline;
+    padding: 0px 15px;
+}
+
+.contact-info{
+    padding: 0px;
+}
+
+.i-item{
+    margin-right: 10px;
+}
+
+.fa-active{
+    color: black;
+}
+
+.fa-active:hover{
+    color: blue;
+}
+
+.fa-active:active{
+    color: blue;
+}
+
+@media(max-width:768px){
+    .about-pic{
+        margin-bottom: 10px;
+    }
+    .skill-content{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px;
+    }
+}
